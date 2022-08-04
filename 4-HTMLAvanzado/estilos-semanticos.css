@@ -1,0 +1,32 @@
+*{
+    width:1200px;
+    font-size: 1.5rem;
+}
+header{
+    background-color:aquamarine;
+    width: auto;
+    height: 200px;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: auto;
+    height: 600px;
+}
+
+aside{
+
+    background-color:red;
+    width: auto;
+    height: 150px;
+
+}
+footer{
+    background-color: blueviolet;
+    width:auto;
+    height: 150px;
+}
+

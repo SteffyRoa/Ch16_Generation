@@ -1,0 +1,35 @@
+.cuadro{
+    height:75px;
+    width:75px;
+
+    margin-top: 10px;
+    margin-right:20px;
+    margin-bottom:30px;
+    margin-left:40px;
+
+    display:inline-block;
+    padding:50px 50px 50px 50px;
+    margin:50px 40px 30px 20px;
+
+    border: 10px solid yellow;
+
+}
+.el-1{
+background-color: indigo;
+
+}
+.el-2{
+    background-color:darkgoldenrod; 
+    position:static;
+}
+.el-3{
+    background-color:pink;
+}
+.el-4{
+    background-color: yellow;
+    
+}
+.el-5{
+    background-color: green;
+    
+}
