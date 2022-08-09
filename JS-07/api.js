@@ -3,29 +3,32 @@
 const urlAleatorios = "https://api.thecatapi.com/v1/images/search"
 /*Elementos del DOM*/
 
-const imagenPerrito =document.getElementById("img-perrito");
+const imagenGatito =document.getElementById("img-gatito");
+const btn = document.getElementById("btn-gatito")
 
-const btn = document.getElementById("btn-perrito")
-console.log(btn)
+console.log(imagenGatito);
 
 /*Eventos*/
 btn.addEventListener("click", () => {
     console.log("Boton presionado");
-    obtenerPerritoAleatorio(urlAleatorios)
+    obtenerGatitoAleatorio(urlAleatorios)
     
 })
+    
+
 
 /*agregar la funcionalidad*/
 
-async function obtenerPerritoAleatorio(url){
+async function obtenerGatitoAleatorio(url){
     const respuesta = await fetch (url)
     const datos = await respuesta.json()
 
     console.log(datos);
-    console.log(datos.message);
+    console.log(datos[0].id);
+    console.log(datos.url);
   //  console.log(datos.status);
 
-imagenPerrito.src = datos.message
+imagenGatito.src = datos[0].url
 }
 
-//obtenerPerritoAleatorio(urlAleatorios)
+obtenerGatitoAleatorio(urlAleatorios)
