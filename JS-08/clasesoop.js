@@ -4,6 +4,12 @@ class Persona {
     this.nombre=nombre;
     this.apellio = apellido;
 }
+get nombre(){
+    return this._nombre;
+}
+set _nombre (nombre){
+    this._nombre= nombre;
+}
 }
 
 let persona1 = new Persona ('Jose', 'Perez');
