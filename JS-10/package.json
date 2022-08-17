@@ -1,22 +1,14 @@
 {
-  "name": "generation_ch16",
+  "name": "js-10",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SteffyRoa/Ch16_Generation.git"
+   "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SteffyRoa/Ch16_Generation/issues"
-  },
-  "homepage": "https://github.com/SteffyRoa/Ch16_Generation#readme",
-  "description": "",
   "devDependencies": {
     "jest": "^28.1.3"
   }
