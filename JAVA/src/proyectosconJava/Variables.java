@@ -15,6 +15,8 @@ public class Variables {
         System.out.println(saludo+ " " + espacio +" "+ nombre);
         System.out.println("char corresponde en byte"+ Character.BYTES);
         System.out.println("char corresponde en byte"+ Character.SIZE);
+        System.out.println("char valor maximo"+ Character.MAX_VALUE);
+         System.out.println("char valor minimo"+ Character.MIN_VALUE);
     }
     
 }
