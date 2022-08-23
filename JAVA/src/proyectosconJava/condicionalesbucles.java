@@ -23,6 +23,30 @@ public class condicionalesbucles {
         }else{
             System.out.println("Ejecucion por defecto");
         }
+        
+        
+        /*
+        switch (direccion){
+            case "Ascendente":
+                for(int i=1; i<=numEstrellas ; i++){
+                    for (int j=0; j<i; j++){
+                        System.out.print("*");
+                    }
+                    System.out.println("");
+                }
+                break;
+            case "Descendente":
+                for(int i=numEstrellas; i>=1 ; i--){
+                    for (int j=0; j<i; j++){
+                        System.out.print("*");
+                    }
+                    System.out.println("");
+                }
+                break;
+            default:
+                System.out.println("Opcion no valida");
+        }
+        */
     }
     
 }
