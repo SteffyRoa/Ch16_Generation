@@ -17,12 +17,12 @@ public class Persona {
         int edad = 24;
        int nss = 123;
 
-        void caminar() {
+        public void caminar() {
             System.out.println("Caminando");
         }
 
 
-        void dormir() {
+        public void dormir() {
             System.out.println("Durmiendo");
         }
 }
