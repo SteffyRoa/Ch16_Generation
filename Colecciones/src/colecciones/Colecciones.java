@@ -38,7 +38,7 @@ public class Colecciones {
     
 }
 //Para crear un comparator creamos otra clase 
-class Comparator implements Comparator <String>{
+/*class Comparator implements Comparator <String>{
 
     @Override
     public int compare(String objeto1, String objeto2) {
@@ -54,4 +54,4 @@ class Comparator implements Comparator <String>{
         return 0;
     
 }
-}
+}*/

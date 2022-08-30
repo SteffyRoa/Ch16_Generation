@@ -4,17 +4,17 @@
  */
 package FigurasGeometricas;
 
+/**
+ *
+ * @author steffanyroa
+ */
+public class Circulo extends FigurasGeometricas{
 
-abstract public class FigurasGeometricas {
-    
-    private String nombre;
-    
-    public abstract float area();
-    
     @Override
-    public String toString(){
+    public float area() {
         
-        return nombre;
+        return 0;
+        
     }
     
 }
